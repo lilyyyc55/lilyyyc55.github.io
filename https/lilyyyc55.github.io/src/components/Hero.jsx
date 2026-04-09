@@ -12,7 +12,7 @@ function Hero() {
                     <a href="mailto:cordina.l@northeastern.edu" className="btn-primary">
                         Get in Touch
                     </a>
-                    <a href="#projects" className="btn-outline">
+                    <a href="#projects" className="btn-primary">
                         View Projects
                     </a>
                 </div>

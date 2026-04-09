@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <>
-            <section className="contact" id="contact">
+            <footer className="contact" id="contact">
                 <p className="section-label">Contact</p>
                 <h2>Let's connect</h2>
                 <p>
@@ -13,7 +13,7 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/lily-cordina" className="contact-link">LinkedIn</a>
                     <a href="https://github.com/lilyyyc55" className="contact-link">GitHub</a>
                 </div>
-            </section>
+            </footer>
         </>
     )
 }
