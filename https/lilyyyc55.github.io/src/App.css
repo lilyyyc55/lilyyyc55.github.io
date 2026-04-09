@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -26,25 +28,25 @@ nav {
   align-items: center;
 }
 
-nav .name {
+.nav-name {
   font-weight: 700;
   font-size: 1.1rem;
   color: #1a1a1a;
 }
 
-nav .links {
+.nav-links {
   display: flex;
   gap: 28px;
 }
 
-nav .links a {
+.nav-links a {
   text-decoration: none;
   color: #555;
   font-size: 0.9rem;
   transition: color 0.2s;
 }
 
-nav .links a:hover {
+.nav-links a:hover {
   color: #1a1a1a;
 }
 
@@ -52,15 +54,21 @@ section {
   max-width: 780px;
   margin: 0 auto;
   padding: 0 32px;
+  justify-content: center;
 }
 
 /* Hero */
 .hero {
   padding-top: 140px;
   padding-bottom: 80px;
+  max-width: 780px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: center;
 }
 
-.hero .greeting {
+.greeting {
   font-size: 0.95rem;
   color: #888;
   margin-bottom: 8px;
@@ -74,7 +82,7 @@ section {
   margin-bottom: 20px;
 }
 
-.hero .tagline {
+.tagline {
   font-size: 1.15rem;
   color: #555;
   max-width: 540px;
@@ -241,7 +249,7 @@ h2 {
   margin-bottom: 2px;
 }
 
-.timeline-content .company {
+.company {
   color: #666;
   font-size: 0.92rem;
   margin-bottom: 6px;
@@ -293,7 +301,7 @@ h2 {
     padding: 14px 20px;
   }
 
-  nav .links {
+  .nav-links {
     gap: 16px;
   }
 
