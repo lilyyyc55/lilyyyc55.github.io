@@ -1,7 +1,7 @@
 function Hero() {
     return (
         <>
-            <section className="hero">
+            <section className="hero" id="hero">
                 <p className="greeting">Hi, I'm</p>
                 <h1>Lily Cordina</h1>
                 <p className="tagline">
@@ -9,7 +9,7 @@ function Hero() {
                     systems programming, and building tools that make an impact.
                 </p>
                 <div className="hero-links">
-                    <a href="mailto:cordina.l@northeastern.edu" className="btn-primary">
+                    <a href="#contact" className="btn-primary">
                         Get in Touch
                     </a>
                     <a href="#projects" className="btn-primary">

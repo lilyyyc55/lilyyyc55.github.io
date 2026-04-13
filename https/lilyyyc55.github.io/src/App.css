@@ -60,13 +60,41 @@ body {
 }
 
 /* ================================
+   BUTTONS (shared)
+   ================================ */
+.hero-links,
+.contact-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-primary,
+.contact-link {
+  text-decoration: none;
+  font-size: var(--text-sm);
+  padding: 10px 22px;
+  border: 1px solid var(--color-text-hover);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  transition: all var(--transition);
+}
+
+.btn-primary:hover,
+.contact-link:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+/* ================================
    NAV
    ================================ */
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(250, 248, 245, 0.95);
+  background: var(--color-bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
   z-index: 100;
@@ -80,6 +108,17 @@ nav {
   font-weight: var(--weight-bold);
   font-size: 1.1rem;
   color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.nav-name:hover {
+  color: var(--color-accent);
+}
+
+.nav-name a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-links {
@@ -143,29 +182,12 @@ section {
   margin-bottom: 28px;
 }
 
-.hero-links {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
 .hero-links a {
   text-decoration: none;
   font-size: var(--text-sm);
   padding: 10px 22px;
   border-radius: var(--radius-md);
   transition: all var(--transition);
-}
-
-.btn-primary {
-  border: 1px solid var(--color-accent);
-  color: var(--color-text-primary);
-}
-
-.btn-primary:hover {
-  border-color: var(--color-accent);
-  color: var(--color-bg);
-  background-color: var(--color-accent);
 }
 
 
@@ -340,27 +362,6 @@ h2 {
   max-width: 480px;
 }
 
-.contact-links {
-  display: flex;
-  gap: var(--space-md);
-  flex-wrap: wrap;
-}
-
-.contact-link {
-  text-decoration: none;
-  color: var(--color-text-primary);
-  font-size: var(--text-sm);
-  padding: 10px 20px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  transition: all var(--transition);
-}
-
-.contact-link:hover {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-}
 
 /* ================================
    RESPONSIVE
