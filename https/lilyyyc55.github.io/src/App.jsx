@@ -1,21 +1,22 @@
 import './App.css'
-import Nav from './components/Nav'
-import Hero from './components/Hero'
-import About from './components/About'
-import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Contact from './components/Contact'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import ProjectsPage from './pages/ProjectsPage'
+import Experience from './pages/Experience'
+import ScrollToHash from './components/ScrollToHash'
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-    </>
+    <BrowserRouter>
+      <ScrollToHash />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/experience" element={<Experience  />} /> 
+      </Routes>
+    </BrowserRouter>
   )
 }
 

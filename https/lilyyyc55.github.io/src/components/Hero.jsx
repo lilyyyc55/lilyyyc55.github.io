@@ -6,7 +6,7 @@ function Hero() {
                 <h1>Lily Cordina</h1>
                 <p className="tagline">
                     Computer Science student at Northeastern University focused on AI,
-                    systems programming, and building tools that make an impact.
+                    full stack development, and building tools that make an impact.
                 </p>
                 <div className="hero-links">
                     <a href="#contact" className="btn-primary">

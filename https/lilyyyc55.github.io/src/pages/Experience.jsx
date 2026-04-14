@@ -1,6 +1,10 @@
+import '../App.css'
+import Nav from '../components/Nav'
+
 function Experience() {
     return (
-        <>
+        <div className="page">
+            <Nav />
             <section className="experience" id="experience">
                 <p className="section-label">Experience</p>
                 <h2>Where I've worked</h2>
@@ -30,8 +34,7 @@ function Experience() {
                     ))}
                 </div>
             </section>
-        </>
-
+        </div>
     )
 }
 
