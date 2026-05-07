@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom"
+import ScrollToHash from "./ScrollToHash"
+
 function Hero() {
     return (
         <>
             <section className="hero" id="hero">
                 <p className="greeting">Hi, I'm</p>
-                <h1>Lily Cordina</h1>
+                <h1>Lily Cordina,</h1>
                 <p className="tagline">
-                    Computer Science student at Northeastern University focused on AI,
-                    full stack development, and building tools that make an impact.
+                    a second-year computer science student at Northeastern University focused on AI,
+                    full stack development, and building tools that make a lasting impact on my community.
                 </p>
                 <div className="hero-links">
-                    <a href="#contact" className="btn-primary">
+                    <Link to="#contact" className="btn-primary">
                         Get in Touch
-                    </a>
-                    <a href="#projects" className="btn-primary">
+                    </Link>
+                    <Link to="/projects" className="btn-primary">
                         View Projects
-                    </a>
+                    </Link>
                 </div>
             </section>
         </>

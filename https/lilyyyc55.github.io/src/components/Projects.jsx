@@ -12,25 +12,25 @@ function Projects() {
                             title: 'Personal Portfolio Website',
                             description: 'A React-based portfolio website showcasing my projects and experience.',
                             tags: ['React', 'JavaScript', 'CSS'],
-                            href: '/project-portfolio',
+                            href: '/projects',
                         },
                         {
                             title: 'NuEvents',
                             description: 'A platform to help Northeastern students discover and engage with campus events.',
                             tags: ['React', 'Node.js', 'Express'],
-                            href: '/project-nuevents',
+                            href: '/projects',
                         },
                         {
                             title: 'Storm of Crimson',
                             description: 'A multi-part card game built with MVC architecture, GUI rendering, and event-driven design.',
                             tags: ['Java', 'Swing', 'MVC'],
-                            href: '/project-stormofcrimson',
+                            href: '/projects',
                         },
                         {
                             title: 'Jumpstart',
                             description: 'A tool designed to help users get started quickly with structured guidance and resources.',
                             tags: ['JavaScript', 'Full Stack'],
-                            href: '/project-jumpstart',
+                            href: '/projects',
                         },
                     ].map((project) => (
                         <a key={project.title} href={project.href} className="project-card">

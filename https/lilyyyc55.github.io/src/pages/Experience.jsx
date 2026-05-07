@@ -1,5 +1,6 @@
 import '../App.css'
 import Nav from '../components/Nav'
+import Contact from '../components/Contact'
 
 function Experience() {
     return (
@@ -7,7 +8,6 @@ function Experience() {
             <Nav />
             <section className="experience" id="experience">
                 <p className="section-label">Experience</p>
-                <h2>Where I've worked</h2>
                 <div className="experience-list">
                     {[
                         {
@@ -34,6 +34,7 @@ function Experience() {
                     ))}
                 </div>
             </section>
+            <Contact />
         </div>
     )
 }
