@@ -10,6 +10,9 @@ function Nav() {
                     <Link to="/projects">Projects</Link>
                     <Link to="/experience">Experience</Link>
                     <Link to="/#contact">Contact</Link>
+                    <Link to="../public/Lily_Cordina_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                        Resume
+                    </Link>
                 </div>
             </nav>
         </>
