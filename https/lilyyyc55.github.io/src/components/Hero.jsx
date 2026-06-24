@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import ScrollToHash from "./ScrollToHash"
 
 function Hero() {
     return (

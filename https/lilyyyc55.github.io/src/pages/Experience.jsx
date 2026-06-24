@@ -13,17 +13,24 @@ function Experience() {
                         {
                             role: 'Industrial Security Co-op',
                             company: 'KRI at Northeastern University, LLC',
-                            description: 'Creating and gave training presentations on industrial security topics, including vulnerability research and secure coding practices.',
+                            description: <ul>
+                                <li>Developed a secure coding training presentation for the company, which was presented to employees and received positive feedback.</li>
+                                <li>Conducted research on common vulnerabilities in industrial control systems and provided recommendations for mitigation.</li>
+                            </ul>,
                         },
                         {
                             role: 'STEM Education Volunteer',
                             company: 'Volunteer Program',
-                            description: 'Helped facilitate hands-on STEM learning experiences for students, fostering curiosity and engagement in science and technology.',
+                            description: <ul>
+                                <li>Helped facilitate hands-on STEM learning experiences for students, fostering curiosity and engagement in science and technology.</li>
+                            </ul>,
                         },
                         {
                             role: 'Team Member',
                             company: 'Caribou Coffee',
-                            description: 'Provided excellent customer service, managed transactions, and maintained a clean and welcoming environment.',
+                            description: <ul>
+                                <li>Provided excellent customer service, managed transactions, and maintained a clean and welcoming environment.</li>
+                            </ul>,
                         }
                     ].map((experience) => (
                         <div key={experience.role} className="experience-card">

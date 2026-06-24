@@ -2,11 +2,9 @@ function Contact() {
     return (
         <>
             <footer className="contact" id="contact">
-                <p className="section-label">Contact</p>
                 <h2>Let's connect</h2>
                 <p>
-                    I'm currently looking for summer 2026 internships and co-op
-                    opportunities. Feel free to reach out!
+                    Currently looking for Spring and Summer 2027 co-op and internship opportunities!
                 </p>
                 <div className="contact-links">
                     <a href="mailto:cordina.l@northeastern.edu" className="contact-link">Email</a>
