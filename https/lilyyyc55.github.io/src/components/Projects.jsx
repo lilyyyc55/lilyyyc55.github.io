@@ -9,12 +9,6 @@ function Projects() {
                 <div className="project-list">
                     {[
                         {
-                            title: 'Personal Portfolio Website',
-                            description: 'A React-based portfolio website showcasing my projects and experience.',
-                            tags: ['React', 'JavaScript', 'CSS'],
-                            href: '/projects',
-                        },
-                        {
                             title: 'NuEvents',
                             description: 'A platform to help Northeastern students discover and engage with campus events.',
                             tags: ['React', 'Node.js', 'Express'],

@@ -7,7 +7,7 @@ function Hero() {
                 <p className="greeting">Hi, I'm</p>
                 <h1>Lily Cordina,</h1>
                 <p className="tagline">
-                    a second-year computer science student at Northeastern University focused on AI,
+                    a third-year computer science student at Northeastern University focused on AI,
                     full stack development, and building tools that make a lasting impact on my community.
                 </p>
                 <div className="hero-links">
