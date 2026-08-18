@@ -5,7 +5,6 @@ import Contact from '../components/Contact'
 function About() {
     return (
         <div className="page">
-            <Nav />
             <section className="about" id="about">
                 <p className="section-label">About me</p>
                 <h2>Hi, I'm Lily!</h2>
@@ -28,7 +27,6 @@ function About() {
                     )}
                 </div>
             </section>
-            <Contact />
         </div>
     )
 }

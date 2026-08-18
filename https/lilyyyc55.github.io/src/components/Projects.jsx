@@ -9,6 +9,12 @@ function Projects() {
                 <div className="project-list">
                     {[
                         {
+                            title: 'Code Sentinel',
+                            description: 'A full-stack web application that analyzes code for security vulnerabilities using AI-powered detection. Users paste or upload code and receive categorized findings with severity ratings, explanations, and actionable remediation steps.',
+                            tags: ['React', 'Typescript', 'Node.js/Express',  'Gemini API'],
+                            href: '/projects',
+                        },
+                        {
                             title: 'NuEvents',
                             description: 'A platform to help Northeastern students discover and engage with campus events.',
                             tags: ['React', 'Node.js', 'Express'],

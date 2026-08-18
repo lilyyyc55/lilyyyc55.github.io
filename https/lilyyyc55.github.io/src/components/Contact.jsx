@@ -2,7 +2,7 @@ function Contact() {
     return (
         <>
             <footer className="contact" id="contact">
-                <h2>Let's connect</h2>
+                <h2>Let's connect!</h2>
                 <p>
                     Currently looking for Spring and Summer 2027 co-op and internship opportunities!
                 </p>
